@@ -28,14 +28,16 @@ header img{
     margin-left: 20px;
     margin-top: 20px;
 }
-
-.timetable{
-    display: flex;
-    margin: 0 auto;
-}
-
 td, th{
-    border: 1px solid #dddddd;
+    border: 1px solid #FFFF;
     border-collapse: collapse;
-    width: 100%;
+}
+td{
+    background-color: #f3f3f4;
+}
+th{
+    background-color: #e9e9ea;
+}
+table{
+    margin-bottom: 100px;
 }
