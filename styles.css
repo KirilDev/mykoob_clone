@@ -1,1 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #d0d4e6;
+}
+header img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.navigation_elements{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #489FFE;;
+}
+
+.print_and_consultation{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.timetable{
+    display: flex;
+    margin: 0 auto;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+}
