@@ -29,7 +29,7 @@
 
 
     <div class="print_and_consultation">
-        <button>Print</button>
+        <button onclick="printTable('timetable')">Print</button>
         <button>Consultation Schedule</button>
     </div>
 
@@ -38,7 +38,7 @@
         <!--Need to implement-->
     </div>
 
-    <div class="timetable">
+    <div class="timetable" id='timetable'>
         <table style="display: flex; align-items:center; justify-content: center; ">
             <tr>
                 <th width="10px">#</th>
@@ -819,5 +819,8 @@
 
         </table>
     </div>
+
+
+    <script src="index.js"></script>
 </body>
 </html>
